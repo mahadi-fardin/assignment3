@@ -451,36 +451,86 @@
           </div>
          </div>
   
-          <div class="flex gap-3 rounded-xl">
+          <div class=" grid grid-cols-1  grid-rows-2 lg:grid-flow-col ">
             <div class="py-3" >
               <h5>Your name</h5>
               <input type="text" placeholder="Your Name" class=" input input-bordered px-4 py-2" />
               <h5>Subject</h5>
               <input type="text" placeholder="Subject" class="input input-bordered px-4 py-2" />
-           
+              
+            </div>
+            <div class="">
+              <h5>Message</h5>
+              <textarea class="textarea textarea-info w-[700] h-96" placeholder="Bio"></textarea>
+            </div>
             </div>
             <div>
               <h5>Email</h5>
               <input type="email" placeholder="Your gmail" class="input input-bordered px-4 py-2" />
               <h6>password</h6>
               <input type="password" placeholder="Your password" class="input input-bordered px-4 py-2" />
-            
+
             </div>
-            <div></div>
             
-            
-           
+  
           </div>
-        </div>
+         
 
+      </section>
 
+      <section class="container mx-auto text-center w-full h-32 mt-8 bg-[#13131808]">
+        <h3 class="text-[#131318] font-mp text-2xl py-5">Social Media</h3>
+        <ul class="flex justify-center items-center gap-2 text-base">
+          <li><i class="fab fa-facebook"></i></li>
+          <li><i class="fab fa-twitter"></i></li>
+          <li><i class="fab fa-instagram"></i></li>
+          <li><i class="fab fa-github-square"></i></li>
+        </ul>
       </section>
 
 
 
     </main>
 
-    <footer></footer>
+    <footer class="footer items-center p-10 bg-[#131318] text-[#FFFFFF99]">
+      <aside>
+        <h3 class="text-white font-mp text-2xl font-extrabold">Get In Touch</h3>
+        <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
+        <div class=" flex justify-center items-center gap-2">
+          <i class="fas fa-phone-alt"></i>
+          <p>013456789</p>
+        </div>
+          <div class=" flex justify-center items-center gap-2">
+            <i class="far fa-envelope"></i>
+            <p>hockeys@support.com</p>
+          </div>
+          
+      </aside> 
+      
+      <nav>
+        <header class="footer-titl text-white font-mp text-2xl font-bold">Company</header> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Leadership</a>
+        <a class="link link-hover">Careers</a>
+        <a class="link link-hover">News & Article</a>
+        <a class="link link-hover">Legal Notice</a>
+      </nav> 
+      <nav>
+        <header class=" text-white font-mp text-2xl font-bold">Support</header> 
+        <a class="link link-hover">Help Center</a>
+        <a class="link link-hover">FAQ</a>
+        <a class="link link-hover">Ticket Support</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav> 
+      <nav>
+        <header class=" text-white font-mp text-2xl font-bold">Services</header> 
+        <a class="link link-hover">Academy</a>
+        <a class="link link-hover">Group Lesson</a>
+        <a class="link link-hover">Private Lesson</a>
+        <a class="link link-hover">Hockeys for kids</a>
+        <a class="link link-hover">Hockeys for Adult</a>
+      </nav>
+    </footer>
     
 </body>
 </html>
